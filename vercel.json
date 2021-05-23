@@ -1,6 +1,10 @@
 {
 	"rewrites": [
 		{ "source": "/:id", "destination": "/api/call" },
-		{ "source": "/", "destination": "/api/call" }
+		{ "source": "/", "destination": "/api/call" },
+		{ "source": "/whatsapp/:id", "destination": "/api/whatsapp" },
+		{ "source": "/whatsapp", "destination": "/api/whatsapp" },
+		{ "source": "/wa/:id", "destination": "/api/whatsapp" },
+		{ "source": "/wa", "destination": "/api/whatsapp" }
 	]
 }
