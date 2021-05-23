@@ -3,7 +3,7 @@ export default function ({ query: { id } }, res) {
 		res.json({ error: "Add a number, like whatsapp/0000000000" });
 		return;
 	}
-    res.redirect(`https://web.whatsapp.com/send?text=&phone=${id}`);
+    res.redirect(`https://api.whatsapp.com/send?text=&phone=${id}`);
 
 
     
